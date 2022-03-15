@@ -125,3 +125,36 @@ footer p{
     padding: 8px 10px 8px 10px;
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(255,0,0,1) 100%);
 }
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 3px outset red;
+    box-sizing: border-box; 
+}
+  
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;  
+}
+
+label{
+    display: block;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+textarea {
+    width: auto;
+    min-width: 50%;
+    max-width: 80%;
+    padding: 8px 0;
+}
+  
